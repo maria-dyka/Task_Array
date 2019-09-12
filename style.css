@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+}
+html{
+    height: 100%;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #768fad;
+    height: 100%;
+}
+.wrapper{
+    height: 420px;
+    width: 420px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #c1846a;
+    padding: 20px;
+    border-radius: 10px;
+}
+.item{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: #c4d0ee;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    color: black;
+    font-size: 30px;
+    z-index: 3;
+}
